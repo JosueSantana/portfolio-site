@@ -3,6 +3,7 @@ import React from 'react';
 const Portfolio = () => {
   return (
     <main className="content-container portfolio">
+      <hr className="portfolio__divider--light" />
       <div className="portfolio__row">
         <h2>Costa</h2>
         <div className="portfolio__item">
@@ -21,7 +22,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <hr className="portfolio__divider--dark" />
+      <hr className="portfolio__divider--light" />
       <div className="portfolio__row ">
         <h2>Expense Tracker</h2>
         <div className="portfolio__item portfolio__item--even">
@@ -41,7 +42,7 @@ const Portfolio = () => {
       <div className="portfolio__row">
         <h2>Pocket Calculator</h2>
         <div className="portfolio__item">
-        <a href="https://react-calc-jasr.herokuapp.com"><img className="portfolio__item__image" src="images/react-calc-preview.png" alt="Pocket Calculator image" /></a>
+          <a href="https://react-calc-jasr.herokuapp.com"><img className="portfolio__item__image" src="images/react-calc-preview.png" alt="Pocket Calculator image" /></a>
           <p className="portfolio__item__description">
             The pocket calculator is a simple web application implemented with <span className="portfolio__emphasize">React</span> that
             aims to emulate a physical calculator that takes button inputs to type out an arithmetic expression on the device's screen.
