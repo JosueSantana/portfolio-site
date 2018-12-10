@@ -13,15 +13,22 @@
 .footer__links{
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
+  @media (min-width: $desktop-breakpoint) {
+    flex-direction: row;
+  }
 }
 
 .footer a {
   color: rgba(229,248,249,.5);
   font-size: $l-size;
   font-weight: 600px;
-  margin: 0 $xl-size 0 $xl-size;
+  margin: $s-size 0 $s-size 0;
   text-decoration: none;
   transition: all 0.10s linear;
+  @media (min-width: $desktop-breakpoint) {
+    margin: 0 $xl-size 0 $xl-size;
+  }
 }
 
 .footer a:hover {
