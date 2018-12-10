@@ -35,6 +35,11 @@
   height: $preview-size;
   margin: 0 $s-size 0 $s-size;
   transition: all 0.15s linear;
+  box-shadow: 0 0 $xl-size 0 #080f0b;
+}
+
+.portfolio__item__image:hover{
+  box-shadow: 0 0 $l-size 0 #0ff;
 }
 
 .portfolio__item__description {
