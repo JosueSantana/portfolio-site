@@ -7,7 +7,7 @@ const Portfolio = () => {
       <div className="portfolio__row">
         <h2>Costa</h2>
         <div className="portfolio__item">
-          <a href="https://costa-84778.herokuapp.com"><img className="portfolio__item__image" src="images/pom.jpg" alt="Costa image" /></a>
+          <a href="https://costa-84778.herokuapp.com"><img className="portfolio__item__image" src="images/palm-tree.jpg" alt="Costa image" /></a>
           <div className="portfolio__item__description">
             <p>
               Costa is a web application that aims to improve planning travel by identifying the best options in flights, lodging, local
