@@ -4,13 +4,24 @@
 
 .portfolio__item {
   display:flex;
+  flex-direction: column;
   justify-content: space-around;
+  @media (min-width: $desktop-breakpoint) {
+    flex-direction: row;
+  }
 }
 .portfolio__item__image {
   width: $preview-size;
   height: $preview-size;
   margin: 0 $s-size 0 $s-size;
   transition: all 0.15s linear;
+}
+
+.portfolio__item__image--inverted {
+  
+  @media (min-width: $desktop-breakpoint) {
+    flex-direction: row;
+  }
 }
 
 .portfolio__item__description {
