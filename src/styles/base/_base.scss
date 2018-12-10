@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(0deg, rgba(25,31,28,1) 57%, rgba(3,76,97,1) 89%, rgba(1,107,122,1) 99%);
+  background-size: cover;
+  font-family: 'Raleway', 'Helvetica', 'Arial', sans-serif;
+  font-size: $m-size;
+  color: #D3F2ED;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}

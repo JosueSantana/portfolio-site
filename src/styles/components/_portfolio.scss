@@ -1,0 +1,40 @@
+.portfolio {
+  margin-bottom: $footer-spacing;
+}
+
+.portfolio__item {
+  display:flex;
+  justify-content: space-around;
+}
+.portfolio__item__image {
+  width: $preview-size;
+  height: $preview-size;
+  margin: 0 $s-size 0 $s-size;
+  transition: all 0.15s linear;
+}
+
+.portfolio__item__description {
+  font-weight: 200;
+  line-height: $l-size;
+  margin: 0 $s-size 0 $s-size;
+}
+
+.portfolio__divider--dark { 
+  margin: 25px 0;
+  height: 1px;
+  border: 0;
+  background: black;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(2,47,60,1)), to(rgba(2,47,60,1)), color-stop(50%, rgba(25,31,28,1)));
+}
+
+.portfolio__divider--light { 
+  margin: 25px 0;
+  height: 1px;
+  border: 0;
+  background: black;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(25,31,28,1)), to(rgba(25,31,28,1)), color-stop(50%, rgba(2,66,75,1)));
+}
+
+.portfolio__emphasize {
+  font-weight: 600;
+}
