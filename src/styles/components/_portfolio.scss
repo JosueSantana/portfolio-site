@@ -21,6 +21,15 @@
     align-items: flex-start;
   }
 }
+
+.portfolio__item--even {
+  flex-direction: column-reverse;
+  @media (min-width: $desktop-breakpoint) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
 .portfolio__item__image {
   width: $preview-size;
   height: $preview-size;

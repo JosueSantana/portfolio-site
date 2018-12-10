@@ -6,7 +6,7 @@ const Portfolio = () => {
       <div className="portfolio__row">
         <h2>Costa</h2>
         <div className="portfolio__item">
-          <a href="https://costa-84778.herokuapp.com"><img className="portfolio__item__image" src="images/corgi.jpg" alt="Costa image" /></a>
+          <a href="https://costa-84778.herokuapp.com"><img className="portfolio__item__image" src="images/pom.jpg" alt="Costa image" /></a>
           <div className="portfolio__item__description">
             <p>
               Costa is a web application that aims to improve planning travel by identifying the best options in flights, lodging, local
@@ -22,9 +22,9 @@ const Portfolio = () => {
         </div>
       </div>
       <hr className="portfolio__divider--dark" />
-      <div className="portfolio__row">
+      <div className="portfolio__row ">
         <h2>Expense Tracker</h2>
-        <div className="portfolio__item">
+        <div className="portfolio__item portfolio__item--even">
           <p className="portfolio__item__description">
             The expense tracker is a <span className="portfolio__emphasize">React</span> web application that shows a list of expenses
             submitted by the user through the expense form. On the error-proof form, the user enters a title, an expense amount
@@ -34,14 +34,14 @@ const Portfolio = () => {
             and expenses are unique to each account. The expenses can also be edited or deleted at will, and the user can view their
             expenses through a variety of filter options.
           </p>
-          <a href="https://expensify-jasr.herokuapp.com"><img className="portfolio__item__image" src="images/goldie.jpg" alt="Expense Tracker image" /></a>
+          <a href="https://expensify-jasr.herokuapp.com"><img className="portfolio__item__image" src="images/expensify-preview.png" alt="Expense Tracker image" /></a>
         </div>
       </div>
       <hr className="portfolio__divider--light" />
       <div className="portfolio__row">
         <h2>Pocket Calculator</h2>
         <div className="portfolio__item">
-        <a href="https://react-calc-jasr.herokuapp.com"><img className="portfolio__item__image" src="images/pom.jpg" alt="Pocket Calculator image" /></a>
+        <a href="https://react-calc-jasr.herokuapp.com"><img className="portfolio__item__image" src="images/react-calc-preview.png" alt="Pocket Calculator image" /></a>
           <p className="portfolio__item__description">
             The pocket calculator is a simple web application implemented with <span className="portfolio__emphasize">React</span> that
             aims to emulate a physical calculator that takes button inputs to type out an arithmetic expression on the device's screen.
